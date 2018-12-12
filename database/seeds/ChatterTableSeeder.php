@@ -18,7 +18,7 @@ class ChatterTableSeeder extends Seeder
             \DB::table('users')->insert([
                 0 => [
                     'id'             => 1,
-                    'name'           => 'Tony Lea',
+                    'name'           => 'Terrence Tejada',
                     'email'          => 'tony@hello.com',
                     'password'       => '$2y$10$9ED4Exe2raEeaeOzk.EW6uMBKn3Ib5Q.7kABWaf4QHagOgYHU8ca.',
                     'remember_token' => 'RvlORzs8dyG8IYqssJGcuOY2F0vnjBy2PnHHTX2MoV7Hh6udjJd6hcTox3un',
@@ -136,14 +136,14 @@ class ChatterTableSeeder extends Seeder
             1 => [
                 'id'                  => 6,
                 'chatter_category_id' => 2,
-                'title'               => 'Login Information for Chatter',
+                'title'               => 'Login Information for Forums',
                 'user_id'             => 1,
                 'sticky'              => 0,
                 'views'               => 0,
                 'answered'            => 0,
                 'created_at'          => '2016-08-18 14:39:36',
                 'updated_at'          => '2016-08-18 14:39:36',
-                'slug'                => 'login-information-for-chatter',
+                'slug'                => 'login-information-for-forums',
                 'color'               => '#1a1067',
             ],
             2 => [
@@ -170,19 +170,6 @@ class ChatterTableSeeder extends Seeder
                 'created_at'          => '2016-08-18 14:46:38',
                 'updated_at'          => '2016-08-18 14:46:38',
                 'slug'                => 'just-a-random-post',
-                'color'               => '',
-            ],
-            4 => [
-                'id'                  => 9,
-                'chatter_category_id' => 2,
-                'title'               => 'Welcome to the Chatter Laravel Forum Package',
-                'user_id'             => 1,
-                'sticky'              => 0,
-                'views'               => 0,
-                'answered'            => 0,
-                'created_at'          => '2016-08-18 14:59:37',
-                'updated_at'          => '2016-08-18 14:59:37',
-                'slug'                => 'welcome-to-the-chatter-laravel-forum-package',
                 'color'               => '',
             ],
         ]);
