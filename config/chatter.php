@@ -34,7 +34,8 @@ return [
     |
     */
 
-    'headline_logo' => '/vendor/devdojo/chatter/assets/images/logo-light.png',
+    // 'headline_logo' => '/vendor/devdojo/chatter/assets/images/logo-light.png',
+    'headline_logo' => '',
 
     /*
     |--------------------------------------------------------------------------
@@ -253,7 +254,7 @@ return [
     'paginate' => [
         'num_of_results' => 10,
     ],
-    
+
     /*
     |--------------------------------------------------------------------------
     | Show missing fields to users in forms
